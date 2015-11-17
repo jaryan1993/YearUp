@@ -1,0 +1,41 @@
+
+public class Exceptions {
+
+	public static void main(String[] args) {
+	}
+
+	public static void FindLargestNumberUsingWhileLoop(int[] numbers) {
+		if (numbers != null) {
+			if (numbers.length > 0) {
+				int i = 1;
+				int largestNumber = numbers[0];
+
+				while (1 < numbers.length) {
+					if (largestNumber < numbers[i]) {
+						largestNumber = numbers[i];
+					}
+
+					i++;
+
+				}
+			}
+		}
+	}
+
+	public static void LargestNumberUsingForLoops(int[] numbers) {
+		if (numbers != null) {
+			if (numbers.length > 0) {
+				int i;
+				int largestNumber = numbers[0];
+				for (i = 1; i < numbers.length; i++) {
+					if (largestNumber < numbers[i]) {
+						if (largestNumber < numbers[i]) {
+							largestNumber = numbers[i];
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
